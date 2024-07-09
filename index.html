@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <title>Encriptador de texto - Alura Challenges - Desafio1</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style2.css">
+</head>
+
+<body>
+    <header>
+        <h1><img src="assets/img/Logo.png" alt="Logo-Alura"></h1>
+    </header>
+    <main>
+        <section>
+            <div class="Encrypt" contenteditable="true">
+                <textarea id="txtEncryptDecrypt" type="text" class="txtEncryptDecrypt" name="" id="" cols="30" rows="10"
+                    placeholder="Ingrese el texto aqui"></textarea>
+            </div>
+
+
+            <div class="menssage">
+                <img src="assets/img/bi_exclamation-circle-fill.png" alt="signo de alerta">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="buttons">
+                <button class="btnEncrypt">
+                    <p>Encriptar</p>
+                </button>
+                <button class="btnDecrypt">
+                    <p>Desencriptar</p>
+                </button>
+            </div>
+        </section>
+        <aside>
+            <div class="rectangle" id="rectangle1">
+                <img src="assets/img/Muñeco.png" alt="">
+                <h5>Ningún mensaje fue encontrado</h5>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+
+            </div>
+            <div class="rectangle" id="rectangle2">
+                <textarea id="areaEncrypt" type="text" name="txtEncrypt" id="" cols="30" rows="10"></textarea>
+                <button class="btnCopy">
+                    <p>Copiar</p>
+                </button>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p> Jesus Maldonado Generacion alura 2024</p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
